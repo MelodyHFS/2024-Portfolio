@@ -25,9 +25,9 @@ h1 {
 
 ul {
 display: flex;
-flex-direction: row;
+/* flex-direction: row; */
 background-color: #FDFAFF;
-width: 1024px;
+width: 900px;
 height: 50px;
 justify-content: space-between;
 list-style-type: none;
@@ -42,23 +42,26 @@ li{
     font-family: 'kefa';
     font-size: 36px;
     color: #6F3D89;
-    /* padding: 20px; */
-    /* border: solid 2px #DBB5FF; */
+    /* padding: 20px;  */
+    /* border: solid 4px #DBB5FF; */
 }
 
-#banner {
-    background-color: aliceblue;
-    width: 1024px;
-    height: 250px;
-    border: solid 1px black;
-}
+
 
 #box1 {
+    display: flex;
+    justify-content: center; 
+    /* flex-direction: column; */
+    width: 927px;
+    height: 81px;
     background-color: #DBB5FF;
+    border: #6F3D89;
     
 }
 
-#box2 {
-    background-color: #FDFAFF;
-
+#directs {
+    display: grid;
+    grid-template-columns: [first] 1050px;
+    grid-template-rows: [first] 200px [Line2] 81px;
+    padding-left: 100px;
 }
