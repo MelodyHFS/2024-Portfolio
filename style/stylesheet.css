@@ -14,8 +14,8 @@ background-color: #EFE0FF;
 width: 1024px;
 height: 3000px;
 border: solid 1px black;
-display: flex;
-justify-content: center;
+/* display: flex;
+justify-content: center; */
 
 }
 
@@ -25,11 +25,12 @@ h1 {
 
 ul {
 display: flex;
+justify-content: center;
 /* flex-direction: row; */
 background-color: #FDFAFF;
-width: 900px;
-height: 50px;
-justify-content: space-between;
+width: 977px;
+height: 49px;
+justify-content: space-evenly; 
 list-style-type: none;
 border: solid 4px #DBB5FF;
 top: 10px;
@@ -42,26 +43,42 @@ li{
     font-family: 'kefa';
     font-size: 36px;
     color: #6F3D89;
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-around;
     /* padding: 20px;  */
-    /* border: solid 4px #DBB5FF; */
+     border: solid 4px #DBB5FF;
 }
 
 
-
-#box1 {
+#boxone {
     display: flex;
     justify-content: center; 
     /* flex-direction: column; */
     width: 927px;
     height: 81px;
     background-color: #DBB5FF;
-    border: #6F3D89;
+    border: solid 1px red;
     
 }
 
 #directs {
-    display: grid;
+    /* display: grid;
     grid-template-columns: [first] 1050px;
     grid-template-rows: [first] 200px [Line2] 81px;
-    padding-left: 100px;
+    padding-left: 100px; */
+}
+#boxtwo {
+    height: 45px;
+    width: 260px;
+    background-color: antiquewhite;
+
+}
+
+#border {
+    height: 300px;
+    width: 700px;
+    background-color: aquamarine;
+    display: absolute;
+    top: 500px;
 }
