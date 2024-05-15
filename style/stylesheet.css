@@ -115,3 +115,13 @@ li{
     background-color: #FDFAFF;
     border: solid 4px #DBB5FF;
   }
+
+  /* #banner {
+    height: 10px;
+    width: 20px;
+  } */
+
+  #picture-one {
+    height: 350px;
+    width: 350px;
+  }
