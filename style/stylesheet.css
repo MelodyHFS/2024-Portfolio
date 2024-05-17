@@ -11,11 +11,12 @@ height: 3000px; */
     background-color: #EFE0FF;
     width: 1024px;
     height: 3000px;
-    border: solid 1px black;
-/* display: flex;
-justify-content: center; */
+    /* border: solid 1px black; */
+    /* display: flex;
+    justify-content: center;  */
 }
 
+/* ------------------------------------ */
 h1 {
     font-family: 'kefa';
     font-size: 55px;
@@ -26,7 +27,16 @@ h2 {
     font-family: 'kefa';
     font-size: 36px;
     color: #6F3D89;
+    display: flex;
+    justify-content: center;
 }
+
+h3 {
+    font-family: 'kefa';
+    font-size: 30px;
+    color: #6F3D89;
+}
+/* -------------------------------- */
 
 p{
     font-family: 'kefa';
@@ -55,9 +65,9 @@ li{
     font-family: 'kefa';
     font-size: 36px;
     color: #6F3D89;
-    display: flex;
+    /* display: flex;
     /* align-content: ;  */
-    justify-content: space-between;  
+    /* justify-content: space-between; */
     /* padding: 20px;  */
      border: solid 4px #DBB5FF;
 }
@@ -109,12 +119,12 @@ li{
     flex-direction: row;
   }
 
-  #photography-title {
+  /* #photography-title {
     height: 53px;
     width: 350px;
     background-color: #FDFAFF;
     border: solid 4px #DBB5FF;
-  }
+  } */
 
   /* #banner {
     height: 10px;
@@ -125,3 +135,45 @@ li{
     height: 350px;
     width: 350px;
   }
+
+  #photoo {
+    height: 53px;
+    width: 350px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
+  }
+
+
+
+  #artwork-title {
+    height: 53px;
+    width: 350px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
+  }
+
+/* -------------------------------------- */
+  #stained-glass-box {
+    height: 337px;
+    width: 376px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
+  }
+
+  #stained-glass {
+    display: flex;
+    justify-content: space-around;
+    height: 234px;
+    width: 323px;
+  }
+
+  #stained-glass-title {
+    height: 41px;
+    width: 325px;
+    background-color: #F8E5FF;
+  }
+/* ---------------------------------------- */
+
+#mermaid-lights-box {
+
+}
