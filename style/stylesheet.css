@@ -31,20 +31,20 @@ h2 {
     justify-content: center;
 }
 
-h3 {
-    font-family: 'kefa';
+p {
+    font-family: 'American Typewriter';
     font-size: 30px;
     color: #6F3D89;
 }
-/* -------------------------------- */
 
-p{
+#about-me {
     font-family: 'kefa';
     font-size: 21px;
     color: #6F3D89;
     padding: 5px; 
-
 }
+
+/* -------------------------------- */
 
 ul {
     display: flex;
@@ -70,6 +70,8 @@ li{
     /* justify-content: space-between; */
     /* padding: 20px;  */
      border: solid 4px #DBB5FF;
+     display: flex;
+     flex-grow: auto;
 }
 
 
@@ -165,6 +167,7 @@ li{
     justify-content: space-around;
     height: 234px;
     width: 323px;
+    border: solid 3px #DBB5FF;
   }
 
   #stained-glass-title {
@@ -174,6 +177,73 @@ li{
   }
 /* ---------------------------------------- */
 
+/* ------------------------------------------ */
 #mermaid-lights-box {
-
+  height: 376px;
+  width: 376px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
 }
+
+#mermaid-lights {
+  display: flex;
+  justify-content: space-around;
+  height: 261px;
+  width: 325px;
+  border: solid 3px #DBB5FF;
+}
+
+#mermaid-lights-title {
+  height: 47px;
+  width: 325px;
+  background-color: #F8E5FF;
+}
+/* ------------------------------------------ */
+
+/* --------------------------------------- */
+#cherry-petals-box {
+  height: 427px;
+  width: 382px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
+}
+
+#cherry-petals {
+  display: flex;
+  justify-content: space-around;
+  height: 322px;
+  width: 324px;
+  border: solid 3px #DBB5FF;
+}
+
+#cherry-petals-title {
+  height: 46px;
+  width: 325px;
+  background-color: #F8E5FF;
+}
+/* --------------------------------------- */
+
+/* ------------------------------------- */
+#checkmate-box {
+  height: 385px;
+  width: 391px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
+}
+
+#checkmate {
+  display: flex;
+  justify-content: space-around;
+  height: 262px;
+  width: 331px;
+  border: solid 3px #DBB5FF;
+}
+
+#checkmate-title {
+  height: 47px;
+  width: 330px;
+  background-color: #F8E5FF;
+}
+/* ----------------------------------------- */
+
+/* ---------------------------------------- */
