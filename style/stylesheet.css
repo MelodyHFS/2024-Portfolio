@@ -10,7 +10,7 @@ height: 3000px; */
 #main-container {
     background-color: #EFE0FF;
     width: 1024px;
-    height: 4000px;
+    height: 4500px;
     /* border: solid 1px black; */
     /* display: flex;
     justify-content: center;  */
@@ -190,12 +190,6 @@ li{
   }
   /* ------------------------------------- */
 
-  /* --------------------------------------- */
-
-
-
-
-
   /* ----------------------------- */
   #monotone-box {
     height: 450px;
@@ -207,12 +201,45 @@ li{
   #monotone {
   display: flex;
   justify-content: space-around;
-  height: 200px;
-  width: 333px;
+  height: 397px;
+  width: 322px;
   border: solid 3px #DBB5FF;
   }
 /* ------------------------------ */
 
+/* --------------------------------- */
+#pina-colada-box {
+  height: 552px;
+  width: 376px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
+}
+
+#pina-colada {
+display: flex;
+justify-content: space-around;
+height: 501px;
+width: 333px;
+border: solid 3px #DBB5FF;
+}
+/* ----------------------------------- */
+
+/* ------------------------------ */
+#palms-box {
+  height: 291px;
+  width: 376px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
+}
+
+#palms {
+display: flex;
+justify-content: space-around;
+height: 250px;
+width: 333px;
+border: solid 3px #DBB5FF;
+}
+/* ------------------------------- */
 
   #photoo {
     height: 53px;
@@ -372,3 +399,25 @@ li{
   background-color: #F8E5FF;
 }
 /* ------------------------------------- */
+
+#contacts-title {
+  height: 53px;
+  width: 300px;
+  background-color: #E3BEFF;
+  border: solid 4px #A488EC;
+  display: flex;
+  justify-content: center;
+
+}
+
+#contacts-info {
+  height: 212px;
+  width: 462px;
+  background-color: #E3BEFF;
+  border: solid 4px #A488EC;
+}
+#contacts {
+  font-family: 'American Typewriter';
+  font-size: 28px;
+  color: #2F0F48;
+}
