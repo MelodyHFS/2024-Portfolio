@@ -10,7 +10,7 @@ height: 3000px; */
 #main-container {
     background-color: #EFE0FF;
     width: 1024px;
-    height: 3000px;
+    height: 4000px;
     /* border: solid 1px black; */
     /* display: flex;
     justify-content: center;  */
@@ -39,11 +39,10 @@ p {
 
 #about-me {
     font-family: 'kefa';
-    font-size: 21px;
+    font-size: 25px;
     color: #6F3D89;
-    padding: 5px; 
+    /* padding: 5px;  */
 }
-
 /* -------------------------------- */
 
 ul {
@@ -133,10 +132,87 @@ li{
     width: 20px;
   } */
 
-  #picture-one {
-    height: 350px;
-    width: 350px;
+
+  .photoss {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+  /* ----------------------- */
+  #flowers-box {
+    height: 478px;
+    width: 376px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
   }
+
+  #flowers {
+  display: flex;
+  justify-content: space-around;
+  height: 425px;
+  width: 318px;
+  border: solid 3px #DBB5FF;
+  }
+  /* ---------------------- */
+
+  /* --------------------------- */
+  #temple-box {
+    height: 249px;
+    width: 376px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
+  }
+
+  #temple {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 333px;
+  border: solid 3px #DBB5FF;
+  }
+  /* --------------------------- */
+
+  /* ------------------------------------ */
+  #green-paradise-box {
+    height: 290px;
+    width: 376px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
+  }
+
+  #green-paradise {
+  display: flex;
+  justify-content: space-around;
+  height: 249px;
+  width: 333px;
+  border: solid 3px #DBB5FF;
+  }
+  /* ------------------------------------- */
+
+  /* --------------------------------------- */
+
+
+
+
+
+  /* ----------------------------- */
+  #monotone-box {
+    height: 450px;
+    width: 376px;
+    background-color: #FDFAFF;
+    border: solid 4px #DBB5FF;
+  }
+
+  #monotone {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 333px;
+  border: solid 3px #DBB5FF;
+  }
+/* ------------------------------ */
+
 
   #photoo {
     height: 53px;
@@ -176,6 +252,11 @@ li{
     background-color: #F8E5FF;
   }
 /* ---------------------------------------- */
+
+.arts {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* ------------------------------------------ */
 #mermaid-lights-box {
@@ -246,4 +327,48 @@ li{
 }
 /* ----------------------------------------- */
 
+/* ------------------------------------- */
+#solstice-warriors-box {
+  height: 619px;
+  width: 376px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
+}
+
+#solstice-warriors {
+  display: flex;
+  justify-content: space-around;
+  height: 503px;
+  width: 326px;
+  border: solid 3px #DBB5FF;
+}
+
+#solstice-warriors-title {
+  height: 47px;
+  width: 326px;
+  background-color: #F8E5FF;
+}
 /* ---------------------------------------- */
+
+/* -------------------------------------- */
+#red-ball-box {
+  height: 342px;
+  width: 396px;
+  background-color: #FDFAFF;
+  border: solid 4px #DBB5FF;
+}
+
+#red-ball {
+  display: flex;
+  justify-content: space-around;
+  height: 217px;
+  width: 342px;
+  border: solid 3px #DBB5FF;
+}
+
+#red-ball-title {
+  height: 48px;
+  width: 341px;
+  background-color: #F8E5FF;
+}
+/* ------------------------------------- */
