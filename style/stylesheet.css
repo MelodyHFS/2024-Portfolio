@@ -135,17 +135,21 @@ li{
 
 
   .photoss {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    transition-property: color;
+  display: grid;
+  grid-template-columns:[First] 500px [Line2] 600px;
+  grid-template-rows: [Row1-start] 600px [Row2] 600px;
+  margin-left: 50px;
+  padding: 20px;
+  border: solid 2px black;
+  justify-content: space-evenly;
     
 }
 
 
+
   /* ----------------------- */
   #flowers-box {
-    height: 478px;
+    height: 543px;
     width: 376px;
     background-color: #FDFAFF;
     border: solid 4px #DBB5FF;
@@ -158,11 +162,18 @@ li{
   width: 318px;
   border: solid 3px #DBB5FF;
   }
+
+  #flowers-title {
+    height: 47px;
+    width: 330px;
+    background-color: #F8E5FF;
+    border: solid 2px #D9B3FF;
+  }
   /* ---------------------- */
 
   /* --------------------------- */
   #temple-box {
-    height: 249px;
+    height: 323px;
     width: 376px;
     background-color: #FDFAFF;
     border: solid 4px #DBB5FF;
@@ -175,11 +186,18 @@ li{
   width: 333px;
   border: solid 3px #DBB5FF;
   }
+
+  #temple-title {
+    height: 47px;
+    width: 330px;
+    background-color: #F8E5FF;
+    border: solid 2px #D9B3FF;
+  }
   /* --------------------------- */
 
   /* ------------------------------------ */
   #green-paradise-box {
-    height: 290px;
+    height: 358px;
     width: 376px;
     background-color: #FDFAFF;
     border: solid 4px #DBB5FF;
@@ -192,11 +210,18 @@ li{
   width: 333px;
   border: solid 3px #DBB5FF;
   }
+
+  #green-paradise-title {
+    height: 47px;
+    width: 330px;
+    background-color: #F8E5FF;
+    border: solid 2px #D9B3FF;
+  }
   /* ------------------------------------- */
 
   /* ----------------------------- */
   #monotone-box {
-    height: 450px;
+    height: 522px;
     width: 376px;
     background-color: #FDFAFF;
     border: solid 4px #DBB5FF;
@@ -209,11 +234,18 @@ li{
   width: 322px;
   border: solid 3px #DBB5FF;
   }
+
+  #monotone-title {
+    height: 47px;
+    width: 330px;
+    background-color: #F8E5FF;
+    border: solid 2px #D9B3FF;
+  }
 /* ------------------------------ */
 
 /* --------------------------------- */
 #pina-colada-box {
-  height: 552px;
+  height: 613px;
   width: 376px;
   background-color: #FDFAFF;
   border: solid 4px #DBB5FF;
@@ -226,11 +258,19 @@ height: 501px;
 width: 333px;
 border: solid 3px #DBB5FF;
 }
+
+#pina-colada-title {
+  height: 47px;
+  width: 330px;
+  background-color: #F8E5FF;
+  border: solid 2px #D9B3FF;
+}
+
 /* ----------------------------------- */
 
 /* ------------------------------ */
 #palms-box {
-  height: 291px;
+  height: 366px;
   width: 376px;
   background-color: #FDFAFF;
   border: solid 4px #DBB5FF;
@@ -243,6 +283,14 @@ height: 250px;
 width: 333px;
 border: solid 3px #DBB5FF;
 }
+
+#palms-title {
+  height: 47px;
+  width: 330px;
+  background-color: #F8E5FF;
+  border: solid 2px #D9B3FF;
+}
+
 /* ------------------------------- */
 
   #photoo {
@@ -411,7 +459,6 @@ border: solid 3px #DBB5FF;
   border: solid 4px #A488EC;
   display: flex;
   justify-content: center;
-
 }
 
 #contacts-info {
